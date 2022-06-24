@@ -21,7 +21,7 @@ export default class BotStats extends Command {
         const { model, speed } = os.cpus()[0];
 
         const BotStatsEmbed = new MessageEmbed()
-        .setColor("#F33D47")
+        .setColor("#4050b5")
         .setTitle("Bot Stats")
         .setDescription("Bot system stats")
         .addFields(
@@ -31,7 +31,7 @@ export default class BotStats extends Command {
         )
 
         const ServerStatsEmbed = new MessageEmbed()
-        .setColor("#F7265D")
+        .setColor("#663ab7")
         .setTitle("Server Stats")
         .setDescription("Server information & stats")
         .addFields(

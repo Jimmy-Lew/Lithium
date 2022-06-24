@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "delete-commands": "ts-node locals/delete-commands.ts",
-    "deploy-commands": "ts-node locals/deploy-commands.ts",
-    "serve": "ts-node index.ts"
+    "delete-c": "ts-node locals/delete-commands.ts",
+    "deploy-c": "ts-node locals/deploy-commands.ts",
+    "dev": "ts-node index.ts"
   },
   "keywords": [],
   "author": "",

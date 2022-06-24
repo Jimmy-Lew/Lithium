@@ -9,7 +9,7 @@ export default class Server extends Command {
 
     async run(interaction : CommandInteraction) {
         const embed = new MessageEmbed()
-        .setColor("#F05D2F")
+        .setColor("#663ab7")
         .setTitle("Server Stats")
         .setDescription("Server information & stats")
         .addFields(
