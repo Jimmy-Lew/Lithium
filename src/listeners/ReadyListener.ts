@@ -8,5 +8,14 @@ export default class ReadyListener extends EventListener {
         }, 1, client);
     }
 
-    run() { console.log("Bot Ready!"); }
+    run() {
+        // @ts-ignore
+        this.user?.setPresence({
+            status: "online",
+            activities: [{
+                name: "Listening to events...",
+                type: 1
+            }]
+        })
+    }
 }

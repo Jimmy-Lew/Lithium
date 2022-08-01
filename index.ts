@@ -1,6 +1,7 @@
 import { Intents } from 'discord.js';
 import { LithiumClient } from './src/Lithium';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
 const CLIENT_OPTIONS = {
